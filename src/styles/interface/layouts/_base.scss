@@ -1,0 +1,38 @@
+/*
+*** BASE-LAYOUT STYLES ***
+*/
+
+@charset "utf-8";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.contentGroup{
+  margin-bottom: rem(24px);
+
+  &__info{
+    @include flexbox;
+    @include justify-content(space-between);
+    @include align-items(center);
+    margin-bottom: rem(4px);
+
+    .item__number{
+      background: #FEF1D7;
+
+      svg{
+        path, polyline, line, rect{
+          stroke: #FCBC44;
+        }
+
+      }
+    }
+  }
+
+
+
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+}

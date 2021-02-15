@@ -1,0 +1,48 @@
+/*
+*** COLOR VARIABLES ***
+*/
+
+@charset "utf-8";
+
+// GRADATION
+$gradation-weak: 15%;
+$gradation-medium: 35%;
+$gradation-strong: 50%;
+$darken: 20%;
+
+// BASE
+$color-primary: #3b427d;
+$color-primary-light-weak: lighten($color-primary, $gradation-weak);
+$color-primary-light-medium: lighten(desaturate($color-primary, $gradation-weak), $gradation-medium);
+$color-primary-light-strong: lighten(desaturate($color-primary, $gradation-weak), $gradation-strong);
+
+$color-primary-dark-weak: darken($color-primary, $gradation-weak);
+$color-primary-dark-medium: darken($color-primary, $gradation-medium);
+$color-primary-dark-strong: darken($color-primary, $gradation-strong);
+
+$color-secondary: #c6538c;
+$color-secondary-light: lighten($color-secondary, $gradation-weak);
+$color-secondary-dark: darken($color-secondary, $gradation-weak);
+
+$color-white: #ffffff;
+
+// TYPOGRAPHY
+$color-text: #c6538c;
+
+// BORDER
+$color-border: #c6538c;
+
+// MESSAGE
+$color-success: #AFAE5A;
+$color-error: #D86E75;
+
+$color-warning: #E19D1D;
+$color-warning-text: darken(desaturate($color-warning, $gradation-strong), $gradation-weak);
+$color-warning-background: lighten(desaturate($color-warning, $gradation-weak), $gradation-medium);
+
+// BACKGROUND
+$color-bg: #F8F5F0;
+$color-bg-dark: darken(desaturate($color-bg, $gradation-weak), $gradation-weak/2);
+
+// BORDER
+$color-border: darken(desaturate($color-bg, $gradation-weak), $gradation-weak);

@@ -1,0 +1,13 @@
+/*
+*** TOP-CONTAINER STYLES ***
+*/
+
+@charset "utf-8";
+
+#topContainer{
+  @include flexbox;
+  @include justify-content(space-between);
+  padding: rem(8px) rem(16px);
+  background: $color-primary-light-strong;
+}
+

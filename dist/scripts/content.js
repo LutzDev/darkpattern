@@ -1,0 +1,1 @@
+window.onload=()=>{chrome.storage.local.set({currentDomain:document.domain})};

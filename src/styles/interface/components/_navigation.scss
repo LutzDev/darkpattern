@@ -1,0 +1,22 @@
+/*
+*** NAVIGATION STYLE ***
+*/
+
+@charset "utf-8";
+
+.navigation{
+  @include flexbox;
+  @include justify-content(space-between);
+  @include align-items(center);
+
+  &__item{
+    @include flexbox;
+    @include align-items(center);
+    cursor: pointer;
+
+    .icon{
+      margin-right: rem(4px);
+    }
+
+  }
+}

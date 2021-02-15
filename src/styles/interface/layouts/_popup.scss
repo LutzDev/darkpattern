@@ -1,0 +1,14 @@
+/*
+*** POPUP STYLES ***
+*/
+
+@charset "utf-8";
+
+.popup{
+  width: rem(360px);
+  height: rem(360px);
+  background: red;
+  overflow: hidden;
+  @include flexbox;
+  @include flex-direction(column);
+}

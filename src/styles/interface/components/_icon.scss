@@ -1,0 +1,27 @@
+/*
+*** ICON STYLE ***
+*/
+
+@charset "utf-8";
+
+.icon{
+  width: rem(24px);
+  height: auto;
+  display: flex;
+
+  path, g{
+    opacity: 1;
+  }
+}
+
+#icon-cancel path{
+  fill: #7479AA;
+}
+
+#icon-close{
+  cursor: pointer;
+}
+
+.item__number{
+  padding: rem(2px) rem(2px);
+}

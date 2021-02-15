@@ -1,0 +1,14 @@
+/*
+*** MID-CONTAINER STYLES ***
+*/
+
+@charset "utf-8";
+
+#midContainer{
+  padding: rem(8px);
+  background: white;
+  overflow-y: scroll;
+  overflow-x: inherit;
+  @include flex-grow(4);
+}
+

@@ -1,0 +1,32 @@
+/*
+*** INTERFACE ***
+*/
+
+@charset "utf-8";
+
+// IMPORT VARIABLES
+@import "variables/_variables";
+
+// IMPORT FUNCTIONS
+@import "functions/_function";
+
+// IMPORT MIXINS STYLE
+@import "mixins/_mixins";
+
+// IMPORT ABSTRACTS STYLE
+@import "abstracts/_abstracts";
+
+// IMPORT BASE STYLE
+@import "base/_base";
+
+// IMPORT COMPONENTS STYLE
+@import "components/_components";
+
+// IMPORT LAYOUTS STYLE
+@import "layouts/_layouts";
+
+// IMPORT EXTERNAL LIBRARY
+@import '../../../node_modules/tippy.js/dist/tippy';
+@import '../../../node_modules/tippy.js/animations/scale';
+
+

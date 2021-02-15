@@ -1,0 +1,35 @@
+/*
+*** COOKIEBOT ***
+*/
+
+@charset "utf-8";
+
+#CybotCookiebotDialog{
+
+  &.dapade-manipulating{
+    #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper{
+
+      #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll, #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection{
+        background: #AFAE5A;
+        color: white;
+
+        &:hover{
+          background: #969548;
+          color: white;
+        }
+      }
+
+      .CybotCookiebotDialogBodyButton{
+        background: #e8e9ec;
+        color: black;
+        font-size: 16px;
+        border: none;
+
+        &:hover{
+          background: #d6d6dd;
+          color: black;
+        }
+      }
+    }
+  }
+}

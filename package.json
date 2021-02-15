@@ -1,0 +1,16 @@
+{
+  "name": "darkpattern",
+  "version": "1.0.0",
+  "description": "An extension that detects and manipulates dark pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lutz Weigold",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.130",
+    "tippy.js": "^6.2.7",
+    "types": "^0.1.1"
+  }
+}

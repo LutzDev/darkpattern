@@ -1,0 +1,28 @@
+{
+  "name": "Dark pattern detection",
+  "description": "An Extension that detects and manipulate dark pattern",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "Lutz Weigold",
+  "permissions": ["bookmarks", "storage", "tabs", "<all_urls>"],
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scripts/content.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "css": [ "styles/patterns.css" ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_title": "Dark pattern detection",
+    "default_popup": "interfaces/popup.html"
+  }
+}
