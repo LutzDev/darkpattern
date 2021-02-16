@@ -1,0 +1,13 @@
+/*
+*** TRANSITION_MIXIN ***
+*/
+
+@charset "utf-8";
+
+@mixin transition($property) {
+  -webkit-transition: $property $transition-fast $transition-timing;
+  -moz-transition: $property $transition-fast $transition-timing;
+  -ms-transition: $property $transition-fast $transition-timing;
+  -o-transition: $property $transition-fast $transition-timing;
+  transition: $property $transition-fast $transition-timing;
+}

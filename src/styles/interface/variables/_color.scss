@@ -11,7 +11,7 @@ $gradation-strong: 50%;
 $darken: 20%;
 
 // BASE
-$color-primary: #3b427d;
+$color-primary: #213B73;
 $color-primary-light-weak: lighten($color-primary, $gradation-weak);
 $color-primary-light-medium: lighten(desaturate($color-primary, $gradation-weak), $gradation-medium);
 $color-primary-light-strong: lighten(desaturate($color-primary, $gradation-weak), $gradation-strong);

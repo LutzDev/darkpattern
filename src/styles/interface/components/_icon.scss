@@ -5,23 +5,18 @@
 @charset "utf-8";
 
 .icon{
-  width: rem(24px);
-  height: auto;
-  display: flex;
+  height: rem(24px);
 
-  path, g{
-    opacity: 1;
+  svg{
+    height: 100%;
   }
 }
 
-#icon-cancel path{
-  fill: #7479AA;
+path{
+  fill: $color-primary;
 }
 
 #icon-close{
   cursor: pointer;
 }
 
-.item__number{
-  padding: rem(2px) rem(2px);
-}

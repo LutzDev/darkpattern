@@ -4,19 +4,25 @@
 
 @charset "utf-8";
 
-.navigation{
+#navigation{
   @include flexbox;
   @include justify-content(space-between);
   @include align-items(center);
+}
 
-  &__item{
-    @include flexbox;
-    @include align-items(center);
-    cursor: pointer;
+.navigation__item{
+  @include flexbox;
+  @include align-items(center);
+  cursor: pointer;
+  opacity: 0.3;
+  @include transition(opacity);
 
-    .icon{
-      margin-right: rem(4px);
-    }
+  &.active{
+    opacity: 1;
+    @include transition(opacity);
+  }
 
+  .icon{
+    margin-right: rem(4px);
   }
 }

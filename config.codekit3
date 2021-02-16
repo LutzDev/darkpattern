@@ -15,12 +15,262 @@
 		"oAP": "/build/.idea",
 		"oF": 0
 		},
-	"/dist/interfaces/analysis.html": {
+	"/dist/assets/fonts/poppins-v15-latin-300.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/interfaces/analysis.html",
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.eot",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.ttf",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.woff",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.woff2",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-500.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.eot",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-500.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-500.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.ttf",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-500.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.woff",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-500.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.woff2",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-600.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.eot",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-600.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-600.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.ttf",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-600.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.woff",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-600.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.woff2",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-800.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.eot",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-800.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-800.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.ttf",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-800.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.woff",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-800.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.woff2",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.eot",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.ttf",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.woff",
+		"oF": 0
+		},
+	"/dist/assets/fonts/poppins-v15-latin-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.woff2",
+		"oF": 0
+		},
+	"/dist/assets/icons/icon-audit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/icons/icon-audit.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/icons/icon-close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/icons/icon-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/icons/icon-report.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/icons/icon-report.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/assets/icons/icon-setting.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/icons/icon-setting.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/interfaces/audit.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/interfaces/audit.html",
 		"oF": 0
 		},
 	"/dist/interfaces/popup.html": {
@@ -46,6 +296,14 @@
 		"oA": 0,
 		"oAP": "/dist/interfaces/setting.html",
 		"oF": 0
+		},
+	"/dist/languages/lang_DE.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/dist/languages/lang_DE-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/dist/manifest.json": {
 		"ft": 524288,
@@ -191,6 +449,256 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/src/assets/fonts/poppins-v15-latin-300.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.eot",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.svg",
+		"oF": 3,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/fonts/poppins-v15-latin-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.ttf",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.woff",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-300.woff2",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-500.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.eot",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-500.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.svg",
+		"oF": 3,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/fonts/poppins-v15-latin-500.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.ttf",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-500.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.woff",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-500.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-500.woff2",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-600.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.eot",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-600.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.svg",
+		"oF": 3,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/fonts/poppins-v15-latin-600.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.ttf",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-600.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.woff",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-600.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-600.woff2",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-800.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.eot",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-800.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.svg",
+		"oF": 3,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/fonts/poppins-v15-latin-800.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.ttf",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-800.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.woff",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-800.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-800.woff2",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.eot",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.svg",
+		"oF": 3,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/fonts/poppins-v15-latin-regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.ttf",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.woff",
+		"oF": 3
+		},
+	"/src/assets/fonts/poppins-v15-latin-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/fonts/poppins-v15-latin-regular.woff2",
+		"oF": 3
+		},
+	"/src/assets/icons/icon-audit.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 0,
+		"oAP": "/dist/assets/icons/icon-audit.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 54584739364863,
+		"prP": 1
+		},
+	"/src/assets/icons/icon-close.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 0,
+		"oAP": "/dist/assets/icons/icon-close.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 54584739364863,
+		"prP": 1
+		},
+	"/src/assets/icons/icon-report.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 0,
+		"oAP": "/dist/assets/icons/icon-report.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 54584739364863,
+		"prP": 1
+		},
+	"/src/assets/icons/icon-setting.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 0,
+		"oAP": "/dist/assets/icons/icon-setting.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 54584739364863,
+		"prP": 1
+		},
 	"/src/configs/manifest.json": {
 		"ft": 524288,
 		"oA": 0,
@@ -199,12 +707,12 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/src/interfaces/analysis.html": {
+	"/src/interfaces/audit.html": {
 		"cB": 1,
 		"ft": 8192,
 		"hM": 1,
 		"oA": 0,
-		"oAP": "/dist/interfaces/analysis.html",
+		"oAP": "/dist/interfaces/audit.html",
 		"oF": 2
 		},
 	"/src/interfaces/popup.html": {
@@ -230,6 +738,14 @@
 		"oA": 0,
 		"oAP": "/dist/interfaces/setting.html",
 		"oF": 2
+		},
+	"/src/languages/lang_DE.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/dist/languages/lang_DE.json",
+		"oF": 3,
+		"oO": 1,
+		"oS": 1
 		},
 	"/src/scripts/background/background.js": {
 		"bF": 0,
@@ -722,6 +1238,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/src/styles/interface/mixins/_transition.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/styles/interface/mixins/_transition.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/src/styles/interface/variables/__variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -783,6 +1312,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/src/styles/interface/variables/_spacing.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/src/styles/interface/variables/_transition.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/styles/interface/variables/_transition.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
