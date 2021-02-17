@@ -1539,6 +1539,14 @@
       "oAP" : "\/dist\/interfaces\/audit.html",
       "oF" : 2
     },
+    "\/src\/interfaces\/options.html" : {
+      "cB" : 1,
+      "ft" : 8192,
+      "hM" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/interfaces\/options.html",
+      "oF" : 2
+    },
     "\/src\/interfaces\/popup.html" : {
       "cB" : 1,
       "ft" : 8192,
@@ -1936,7 +1944,7 @@
       "oAP" : "\/dist\/styles\/interface.css",
       "oF" : 2,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/src\/styles\/interface\/layouts\/__layouts.scss" : {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<div id="report">
+    <h2 class="headline-second">Teilen deinen Fund mit uns</h2>
+    <div id="report__information" class="contentGroup">
+        <h3 class="headline-third">Art des Dark Pattern</h3>
+        <form id="report__form">
+            <div class="item">
+                <input class="item__radio" type="radio" id="male" name="gender" value="male">
+                <label for="male">Cookie Hinweis</label>
+            </div>
+            <div class="item">
+                <input class="item__radio" type="radio" id="female" name="gender" value="female">
+                <label for="female">Irreführende Werbung</label>
+            </div>
+            <div class="item">
+                <input class="item__radio" type="radio" id="other" name="gender" value="other">
+                <label for="other">Sonstige</label>
+            </div>
+        </form>
+    </div>
+    <div id="report__message" class="hidden contentGroup">
+        <h3 class="headline-third">Kurze Beschreibung deines Fundes</h3>
+        <textarea rows="4" cols="50" name="comment" form="report__form" placeholder="Es handelt sich beim Dark Pattern um ..."></textarea>
+    </div>
+    <button id="report__button" type="reset" form="report__form" class="button button-primary">Dark Pattern melden</button>
+</div>
+</html>

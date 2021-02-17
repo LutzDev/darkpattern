@@ -27,7 +27,9 @@ const fillTextData = async (element) => {
                     tippy(element, {
                         content: data[element.getAttribute("data-translate")],
                         animation: 'scale',
-                        allowHTML: true
+                        allowHTML: true,
+                        delay: [400, null],
+
                     });
                 } else {
                     element.innerHTML = data[element.getAttribute("data-translate")];

@@ -17,6 +17,20 @@
   -moz-box-shadow: 0px 4px 32px -8px rgba(0,10,74,0.16);
   box-shadow: 0px 4px 32px -8px rgba(0,10,74,0.16);
 
+  &.item-button{
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+
+    a{
+      @include flexbox;
+      @include align-items(center);
+      @include justify-content(space-between);
+      width: 100%;
+      text-decoration: inherit;
+    }
+  }
+
   &:last-of-type{
     margin-bottom: 0;
   }

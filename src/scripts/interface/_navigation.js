@@ -12,10 +12,6 @@ export const navHandler = () => {
     if(elementExist(navItems)){
         defaultView(navItems[0])
         for(const navItem of navItems){
-            tippy(navItem, {
-                content: 'Lorem iasduhsdf usdhf oassdhu ssdf hsdfh pas uhds osdj jasih sjgj oisj ',
-                animation: 'scale'
-            })
             navItem.addEventListener("click",  function (){
                 routing(this);
                 toggleClass(this, "active");
