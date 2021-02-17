@@ -7,16 +7,46 @@
 .icon{
   height: rem(24px);
 
+  &__pattern, &__info{
+    margin-right: $margin-small;
+  }
+
+  &__target{
+    cursor: pointer;
+    @include transition(opacity);
+
+    &:hover{
+      opacity: 0.6;
+    }
+  }
+
   svg{
     height: 100%;
   }
 }
 
-path{
+path, circle{
   fill: $color-primary;
+  @include transition(fill);
 }
 
 #icon-close{
   cursor: pointer;
 }
 
+.info__icon{
+  cursor: pointer;
+  background: $color-bg-dark;
+  border-radius: rem($border-small);
+  opacity: 1;
+  @include transition(background);
+
+  &:hover{
+    background: $color-info-light;
+
+    path, circle{
+      fill: $color-info;
+      @include transition(fill);
+    }
+  }
+}

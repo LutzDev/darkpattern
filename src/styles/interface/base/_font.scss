@@ -9,15 +9,41 @@ h1, h2, h3, h4, p, .button, .text-small, label{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', Helvetica, Arial;
-  color: $color-primary;
+}
+
+h2, .navigation__item__title, .overview__counter, .item__titel{
+  color: $color-font-h2;
+}
+
+h3, p{
+  font-size: rem(14px);
+}
+
+h3{
+  font-weight: 600;
+  color: $color-font-h3;
 }
 
 p{
-  font-size: rem(14px);
   font-weight: 400;
 }
 
+.overview__counter{
+  font-size: (rem(16px));
+  font-weight: 600;
 
+  &.sucess{
+    color: $color-success;
+  }
+
+  &.warning{
+    color: $color-info;
+  }
+}
+
+.overview__titel{
+  color: $color-font-h3;
+}
 
 /* poppins-300 - latin */
 @font-face {

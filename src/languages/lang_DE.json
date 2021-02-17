@@ -2,5 +2,19 @@
   "nav__audit": "Audit",
   "nav__report": "Report",
   "nav__setting": "Einstellung",
-  "logo": "Dark Pattern Detection"
+  "logo": "Dark Pattern Detection",
+  "currentSite__counter": "Counter",
+  "currentSite__titel": "Webseitentitel",
+  "total__counter": "Total Counter",
+  "total__titel": "Total title",
+  "headline__overview": "Blockierte Dark Pattern",
+  "headline__overview-info": "Hier findest du die Anzahl an Dark Pattern, welche auf der Seite und seit Installation erkannt wurden.",
+  "headline__audit": "Auf <span class='currentSite__titel'>sd</span> erkannte Dark Pattern",
+  "headline__audit-info": "Hier werden alle auf der aktuell besuchten Seite erkannten Dark Pattern angezeigt. Klicke, um mehr über die Dark Pattern zu erfahren.",
+  "headline__setting": "Welche Funktionen sollen aktiviert werden?",
+  "pattern__title-cookie": "Cookie-Hinweis",
+  "pattern__title-advertisement": "Irreführende Werbung",
+  "headline__info": "Weitere Infos",
+  "icon__target": "Lass dir diesen Dark Pattern auf der Webseite anzeigen",
+  "item__counter": "Hier wird die Anzahl der von dieser Art erkannten Dark Pattern aufgelistet"
 }

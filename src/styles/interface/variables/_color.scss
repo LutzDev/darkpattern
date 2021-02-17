@@ -4,14 +4,31 @@
 
 @charset "utf-8";
 
+
+
+
+
 // GRADATION
 $gradation-weak: 15%;
-$gradation-medium: 35%;
-$gradation-strong: 50%;
+$gradation-medium: 30%;
+$gradation-strong: 40%;
 $darken: 20%;
 
-// BASE
+//NEW
 $color-primary: #213B73;
+$color-primary-light: lighten($color-primary, $gradation-weak);
+$color-bg: #E5E6E9;
+$color-bg-dark: darken($color-bg, $gradation-medium);
+
+$color-font-h2: $color-primary;
+$color-font-h3:lighten(desaturate($color-font-h2, $gradation-medium), $gradation-strong);
+
+$color-info: #de9613;
+$color-info-light: lighten($color-info, $gradation-medium);
+
+$color-success: #50997A;
+
+// BASE
 $color-primary-light-weak: lighten($color-primary, $gradation-weak);
 $color-primary-light-medium: lighten(desaturate($color-primary, $gradation-weak), $gradation-medium);
 $color-primary-light-strong: lighten(desaturate($color-primary, $gradation-weak), $gradation-strong);
@@ -33,7 +50,6 @@ $color-text: #c6538c;
 $color-border: #c6538c;
 
 // MESSAGE
-$color-success: #AFAE5A;
 $color-error: #D86E75;
 
 $color-warning: #E19D1D;
@@ -41,7 +57,6 @@ $color-warning-text: darken(desaturate($color-warning, $gradation-strong), $grad
 $color-warning-background: lighten(desaturate($color-warning, $gradation-weak), $gradation-medium);
 
 // BACKGROUND
-$color-bg: #F8F5F0;
 $color-bg-dark: darken(desaturate($color-bg, $gradation-weak), $gradation-weak/2);
 
 // BORDER

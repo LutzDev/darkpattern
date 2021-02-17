@@ -4,108 +4,94 @@
 
 @charset "utf-8";
 
-.item{
+.item {
   @include flexbox;
   @include align-items(center);
-  border-radius: $border-medium;
-  background: $color-primary-light-strong;
-  padding: rem(8px);
+  @include justify-content(space-between);
+  padding: $padding-small;
+  background: $color-white;
+  border-radius: $border-small;
   margin-bottom: rem(8px);
+
+  -webkit-box-shadow: 0px 4px 32px -8px rgba(5, 22, 129, 0.16);
+  -moz-box-shadow: 0px 4px 32px -8px rgba(0,10,74,0.16);
+  box-shadow: 0px 4px 32px -8px rgba(0,10,74,0.16);
 
   &:last-of-type{
     margin-bottom: 0;
   }
 
-  &__content{
-    width: 100%;
+  &-button{
+    cursor: pointer;
+    @include transition(background);
 
-  }
-  &__general{
-    @include flexbox;
-    @include justify-content(space-between);
-    @include align-items(center);
-    margin-bottom: 0;
-  }
 
-  &__number{
-    display: inline-block;
-    border-radius: $border-small;
-    background: $color-primary;
-    width: rem(20px);
-    height: rem(20px);
-    color: $color-white;
-
-    @include flexbox;
-    @include justify-content(center);
-    @include align-items(center);
-  }
-
-  &__icon{
-    margin-right: rem(8px);
-
-    path{
-      fill: black;
-    }
-  }
-
-  &.active{
-    @include align-items(flex-start);
-    background: $color-primary;
-
-    .item__number{
-      background: $color-primary-light-weak;
+    .item__interaction{
+      margin-right: rem(4px);
+      @include transition(margin-right);
     }
 
-    .item__titel{
-      color: $color-white;
+    p{
+      @include transition(color);
     }
 
-    .item__general{
-      margin-bottom: rem(8px);
+    path, circle{
+      @include transition(fill);
     }
 
-    .interaction{
-      background: $color-primary-light-weak;
-      @include flexbox;
-      @include justify-content(space-between);
-      @include align-items(center);
+    &:hover{
+      background: $color-primary-light;
 
-      &__title{
+      .item__interaction{
+        margin-right: 0;
+      }
+
+      p{
         color: $color-white;
+      }
+      path, circle{
+        fill: $color-white;
       }
     }
   }
 
-  .interaction{
-    display: none;
-    width: 100%;
-    padding: rem(8px);
-    box-sizing: border-box;
-    background: $color-white;
-    margin-bottom: rem(4px);
-    border-radius: $border-small;
+
+  &__info{
+    @include flexbox;
+    @include align-items(center);
+  }
+
+  &__interaction{
+    @include flexbox;
+    @include align-items(center);
+
+    >*{
+      margin-right: $margin-small;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__counter{
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+    user-select: none;
     cursor: pointer;
+    width: rem(24px);
+    height: rem(24px);
+    background: $color-primary-light;
+    border-radius: $border-small;
+    color: $color-white;
+    @include transition(background);
 
-    &:last-of-type{
-      margin-bottom: 0;
+
+    &:hover{
+      background: $color-primary;
     }
   }
 }
-
-.setting__items{
-  .item{
-    &__icon{
-      @include flexbox;
-      @include align-items(center);
-    }
-    &__general{
-      margin-bottom: 0;
-    }
-    &__content{
-      margin-bottom: 0;
-    }
-  }
-}
-
 
 

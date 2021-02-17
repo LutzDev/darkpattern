@@ -14,12 +14,11 @@
   @include flexbox;
   @include align-items(center);
   cursor: pointer;
-  opacity: 0.3;
+  opacity: 0.6;
   @include transition(opacity);
 
   &.active{
     opacity: 1;
-    @include transition(opacity);
   }
 
   .icon{

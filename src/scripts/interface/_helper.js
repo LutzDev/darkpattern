@@ -1,9 +1,9 @@
 import tippy from "tippy.js";
 
 export const elementExist = (element) => {
-    if(typeof(element) != 'undefined' && element != null){
+    if (typeof (element) != 'undefined' && element != null) {
         return true;
-    }else{
+    } else {
         console.log(element + " nicht gefunden");
         return false;
     }
@@ -11,26 +11,36 @@ export const elementExist = (element) => {
 
 export const getText = async () => {
     const textSnippets = document.querySelectorAll('[data-translate]');
-    if(elementExist(textSnippets)) {
-        for(const textSnippet of textSnippets){
-            await console.log(fillTextData(textSnippet));
+    if (elementExist(textSnippets)) {
+        for (const textSnippet of textSnippets) {
+            await fillTextData(textSnippet);
         }
     }
 }
 
 const fillTextData = async (element) => {
-    return fetch("../languages/lang_DE.json")
+    fetch("../languages/lang_DE.json")
         .then(response => response.json())
         .then(data => {
-            element.innerHTML = data[element.getAttribute("data-translate")];
+            if (elementExist(data[element.getAttribute("data-translate")])) {
+                if (element.hasAttribute("data-tooltip")) {
+                    tippy(element, {
+                        content: data[element.getAttribute("data-translate")],
+                        animation: 'scale',
+                        allowHTML: true
+                    });
+                } else {
+                    element.innerHTML = data[element.getAttribute("data-translate")];
+                }
+            }
         })
 }
 
 
-export const controlSiblings = (element) => {
+export const toggleClass = (element, property) => {
     for (const sibling of element.parentNode.children) {
         console.log(sibling);
-        sibling.classList.remove('active');
+        sibling.classList.remove(property);
     }
-    element.classList.add("active");
+    element.classList.add(property);
 }

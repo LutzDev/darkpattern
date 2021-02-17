@@ -5,9 +5,10 @@
 @charset "utf-8";
 
 #popup{
-  width: rem(360px);
-  height: rem(360px);
+  width: rem(400px);
+  height: rem(480px);
   overflow: hidden;
+  background: $color-bg;
   @include flexbox;
   @include flex-direction(column);
 }
