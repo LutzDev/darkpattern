@@ -1,13 +1,8 @@
-import {toggleClass, elementExist, getText} from "./_helper";
+import {toggleClass, elementExist, fillTextData} from "./_helper";
 import {auditHandler} from "./_audit";
 import {settingsHandler} from "./_setting";
-import tippy from "tippy.js";
 import {reportHandler} from "./_report";
 
-const defaultView = (element) => {
-    routing(element);
-    toggleClass(element, "active");
-}
 
 export const navHandler = () => {
     const navItems = document.querySelectorAll(".navigation__item");
@@ -21,8 +16,10 @@ export const navHandler = () => {
         }
     }
 }
-
-
+const defaultView = (element) => {
+    routing(element);
+    toggleClass(element, "active");
+}
 
 const routing = (element) => {
     if (element.getAttribute("id") === "item-audit") {
@@ -36,18 +33,15 @@ const routing = (element) => {
 
 const fetchHtmlContent = async (htmlFile) => {
     const midContainer = document.getElementById("midContainer");
-
-
     if(elementExist(midContainer)){
-        fetch('../interfaces/'+htmlFile+'.html')
-            .then(function(response) {
-                return response.text();
-            })
-            .then(function(body) {
-                midContainer.innerHTML = body;
-            }).then(()=>{
-                getText();
-         }).then(()=>{
+        try{
+            const response = await fetch('../interfaces/'+htmlFile+'.html');
+            if (!response.ok) {
+                throw new Error(response.statusText);
+            }
+            const body = await response.text();
+            midContainer.innerHTML = body;
+            await fillTextData();
             if(htmlFile == "audit"){
                 console.log("Analysis aufgerufen");
                 auditHandler();
@@ -58,6 +52,8 @@ const fetchHtmlContent = async (htmlFile) => {
                 console.log("Setting aufgerufen");
                 //settingsHandler();
             }
-        });
+        }catch(err){
+            console.log(err);
+        }
     }
 }

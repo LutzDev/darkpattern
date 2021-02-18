@@ -9,44 +9,50 @@ export const elementExist = (element) => {
     }
 }
 
-export const getText = async () => {
-    const textSnippets = document.querySelectorAll('[data-translate]');
-    if (elementExist(textSnippets)) {
-        for (const textSnippet of textSnippets) {
-            await fillTextData(textSnippet);
-        }
-    }
-}
-
-const fillTextData = async (element) => {
-
-    fetch("../languages/lang_DE.json")
-        .then(response => response.json())
-        .then(data => {
-            if (elementExist(data[element.getAttribute("data-translate")])) {
-                if (element.hasAttribute("data-tooltip")) {
-                    tippy(element, {
-                        content: data[element.getAttribute("data-translate")],
-                        animation: 'scale',
-                        allowHTML: true,
-                        delay: [400, null],
-                    });
-                } else if(element.hasAttribute("placeholder")){
-                    element.setAttribute("placeholder", data[element.getAttribute("data-translate")]);
-                }else if(element.hasAttribute("value")){
-                    element.setAttribute("value", data[element.getAttribute("data-translate")]);
-                }else {
-                    element.innerHTML = data[element.getAttribute("data-translate")];
+export const fillTextData =  () => {
+    return new Promise(async (resolve) => {
+        console.log("Processing getText");
+        const textSnippets = document.querySelectorAll('[data-translate]');
+        if (elementExist(textSnippets)) {
+            try{
+                const response = await fetch("../languages/lang_DE.json");
+                console.log("Fetch done")
+                if (!response.ok) {
+                    throw new Error(response.statusText);
                 }
-                console.log("fillTextData")
+                const data = await response.json();
+                console.log("json() done")
+                for(const textSnippet of textSnippets){
+                    if (elementExist(data[textSnippet.getAttribute("data-translate")])) {
+                        if (textSnippet.hasAttribute("data-tooltip")) {
+                            tippy(textSnippet, {
+                                content: data[textSnippet.getAttribute("data-translate")],
+                                animation: 'scale',
+                                allowHTML: true,
+                                delay: [400, null],
+                            });
+                        }else if(textSnippet.hasAttribute("placeholder")){
+                            textSnippet.setAttribute("placeholder", data[textSnippet.getAttribute("data-translate")]);
+                        }else if(textSnippet.hasAttribute("value")){
+                            textSnippet.setAttribute("value", data[textSnippet.getAttribute("data-translate")]);
+                        }else{
+                            textSnippet.innerHTML = data[textSnippet.getAttribute("data-translate")];
+                        }
+                    }
+                }
+                console.log("loop done")
+                resolve();
+            }catch (err){
+                console.log(err);
             }
-        })
+
+        }
+    })
 }
 
 
 export const toggleClass = (element, property) => {
     for (const sibling of element.parentNode.children) {
-        console.log(sibling);
         sibling.classList.remove(property);
     }
     element.classList.add(property);

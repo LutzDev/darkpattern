@@ -8,12 +8,13 @@ const setUrl = () => {
     chrome.storage.local.get(["currentDomain"], (result) => {
         const currentSite = document.getElementById("currentSiteTitle");
         if(elementExist(currentSite)){
-            currentSite.innerText = result.currentDomain;
-            console.log(currentSite)
-            console.log(result.currentDomain);
-            console.log("URL abgeändert");
+            currentSite.innerText = trimUrl(result.currentDomain);
         }else{
             console.log("Nicht vorhanden")
         }
     });
+}
+
+const trimUrl = (url) => {
+    return url.replace(/^(https?:\/\/)?(www\.)?/,'');
 }
