@@ -373,6 +373,14 @@
       "oAP" : "\/dist\/interfaces\/audit.html",
       "oF" : 0
     },
+    "\/dist\/interfaces\/options.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/interfaces\/options.html",
+      "oF" : 0
+    },
     "\/dist\/interfaces\/popup.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1641,6 +1649,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/src\/scripts\/interface\/_popup-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/interface\/_report.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/scripts\/interface\/_report-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

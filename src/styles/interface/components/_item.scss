@@ -93,7 +93,6 @@
     @include align-items(center);
     @include justify-content(center);
     user-select: none;
-    cursor: pointer;
     width: rem(24px);
     height: rem(24px);
     background: $color-primary-light;

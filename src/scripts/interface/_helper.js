@@ -19,6 +19,7 @@ export const getText = async () => {
 }
 
 const fillTextData = async (element) => {
+
     fetch("../languages/lang_DE.json")
         .then(response => response.json())
         .then(data => {
@@ -29,11 +30,15 @@ const fillTextData = async (element) => {
                         animation: 'scale',
                         allowHTML: true,
                         delay: [400, null],
-
                     });
-                } else {
+                } else if(element.hasAttribute("placeholder")){
+                    element.setAttribute("placeholder", data[element.getAttribute("data-translate")]);
+                }else if(element.hasAttribute("value")){
+                    element.setAttribute("value", data[element.getAttribute("data-translate")]);
+                }else {
                     element.innerHTML = data[element.getAttribute("data-translate")];
                 }
+                console.log("fillTextData")
             }
         })
 }

@@ -9,7 +9,7 @@
 
 
 // GRADATION
-$gradation-weak: 15%;
+$gradation-weak: 10%;
 $gradation-medium: 30%;
 $gradation-strong: 40%;
 $darken: 20%;
@@ -18,7 +18,8 @@ $darken: 20%;
 $color-primary: #213B73;
 $color-primary-light: lighten($color-primary, $gradation-weak);
 $color-bg: #E5E6E9;
-$color-bg-dark: darken($color-bg, $gradation-medium);
+$color-bg-dark-weak: darken($color-bg, $gradation-weak);
+$color-bg-dark-medium: darken($color-bg, $gradation-medium);
 
 $color-font-h2: $color-primary;
 $color-font-h3:lighten(desaturate($color-font-h2, $gradation-medium), $gradation-strong);

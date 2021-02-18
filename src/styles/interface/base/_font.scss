@@ -13,19 +13,29 @@ h1, h2, h3, h4, p, .button, .text-small, label{
 
 h2{
   font-size: rem(18px);
+  font-weight: 600;
 }
 
-h2, .navigation__item__title, .overview__counter, .item__titel{
+h2, .navigation__item__title, .overview__counter, .item__titel, .form__label__titel{
   color: $color-font-h2;
 }
 
-h3, p{
+.form__label__description{
+  color: $color-font-h3;
+}
+
+h3, p, .button-primary{
   font-size: rem(14px);
 }
 
 h3{
   font-weight: 600;
   color: $color-font-h3;
+}
+
+.form__label__description{
+  font-size: rem(12px);
+  font-style: italic;
 }
 
 p{

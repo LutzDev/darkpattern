@@ -4,18 +4,6 @@
 
 @charset "utf-8";
 
-
-textarea{
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
-  box-sizing: border-box;
-  background: $color-primary-light-strong;
-  border: none;
-  border-radius: $border-medium;
-  padding: rem(8px);
-}
-
 @supports(-webkit-appearance: none) or (-moz-appearance: none) {
   input[type='checkbox'],
   input[type='radio'] {
@@ -149,4 +137,31 @@ textarea{
       --s: .5;
     }
   }
+}
+
+#report__submit{
+  width: 100%;
+}
+
+.form{
+  &__text-field{
+    box-sizing: border-box;
+    padding: $padding-small;
+    border: 1px solid $color-bg-dark-weak;
+    margin-bottom: rem(16px);
+  }
+
+  &__text-field{
+    width: 100%;
+    border-radius: $border-small;
+  }
+
+  &__label__description{
+    margin-bottom: rem(4px);
+  }
+}
+
+textarea{
+  max-width: 100%;
+  min-width: 100%;
 }

@@ -32,11 +32,21 @@ path, circle{
 
 #icon-close{
   cursor: pointer;
+
+  path, circle{
+    fill: $color-bg-dark-medium;
+  }
+
+  &:hover{
+    path, circle{
+      fill: $color-bg-dark-weak;
+    }
+  }
 }
 
 .info__icon{
   cursor: pointer;
-  background: $color-bg-dark;
+  background: $color-bg-dark-weak;
   border-radius: rem($border-small);
   opacity: 1;
   @include transition(background);

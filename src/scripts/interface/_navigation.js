@@ -2,6 +2,8 @@ import {toggleClass, elementExist, getText} from "./_helper";
 import {auditHandler} from "./_audit";
 import {settingsHandler} from "./_setting";
 import tippy from "tippy.js";
+import {reportHandler} from "./_report";
+
 const defaultView = (element) => {
     routing(element);
     toggleClass(element, "active");
@@ -32,9 +34,10 @@ const routing = (element) => {
     }
 }
 
-const fetchHtmlContent = (htmlFile) => {
-
+const fetchHtmlContent = async (htmlFile) => {
     const midContainer = document.getElementById("midContainer");
+
+
     if(elementExist(midContainer)){
         fetch('../interfaces/'+htmlFile+'.html')
             .then(function(response) {
@@ -47,9 +50,10 @@ const fetchHtmlContent = (htmlFile) => {
          }).then(()=>{
             if(htmlFile == "audit"){
                 console.log("Analysis aufgerufen");
-                //auditHandler();
+                auditHandler();
             }else if(htmlFile == "report"){
                 console.log("Report aufgerufen");
+                reportHandler();
             }else if(htmlFile == "setting"){
                 console.log("Setting aufgerufen");
                 //settingsHandler();
