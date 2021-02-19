@@ -21,6 +21,8 @@ $color-bg: #E5E6E9;
 $color-bg-dark-weak: darken($color-bg, $gradation-weak);
 $color-bg-dark-medium: darken($color-bg, $gradation-medium);
 
+$color-button-disabled: darken($color-bg, 5%);
+
 $color-font-h2: $color-primary;
 $color-font-h3:lighten(desaturate($color-font-h2, $gradation-medium), $gradation-strong);
 

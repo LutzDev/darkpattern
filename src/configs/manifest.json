@@ -25,5 +25,7 @@
     "default_title": "Dark pattern detection",
     "default_popup": "interfaces/popup.html"
   },
-  "options_page": "interfaces/options.html"
+  "options_page": "interfaces/options.html",
+  "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+
 }

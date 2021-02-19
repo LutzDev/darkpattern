@@ -43,14 +43,11 @@ const fetchHtmlContent = async (htmlFile) => {
             midContainer.innerHTML = body;
             await fillTextData();
             if(htmlFile == "audit"){
-                console.log("Analysis aufgerufen");
                 auditHandler();
             }else if(htmlFile == "report"){
-                console.log("Report aufgerufen");
                 reportHandler();
             }else if(htmlFile == "setting"){
-                console.log("Setting aufgerufen");
-                //settingsHandler();
+                settingsHandler();
             }
         }catch(err){
             console.log(err);

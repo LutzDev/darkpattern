@@ -484,6 +484,204 @@
       "oAP" : "\/build\/node_modules",
       "oF" : 0
     },
+    "\/node_modules\/@firebase\/analytics\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/analytics\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/app\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/app\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/auth\/dist\/auth.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/auth\/dist\/auth.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/component\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/component\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/database\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/database\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/firestore\/bundle\/..\/dist\/esm5\/bundle.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/firestore\/bundle\/..\/dist\/esm5\/bundle-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/firestore\/bundle\/..\/dist\/esm5\/prebuilt-7840cb8c-52081c7f.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/firestore\/bundle\/..\/dist\/esm5\/prebuilt-7840cb8c-52081c7f-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/firestore\/dist\/esm5\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/firestore\/dist\/esm5\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/firestore\/dist\/esm5\/prebuilt-7840cb8c-52081c7f.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/firestore\/dist\/esm5\/prebuilt-7840cb8c-52081c7f-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/functions\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/functions\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/installations\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/installations\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/logger\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/logger\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/messaging\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/messaging\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/performance\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/performance\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/remote-config\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/remote-config\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/storage\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/storage\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/util\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/util\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@firebase\/webchannel-wrapper\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/@firebase\/webchannel-wrapper\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/node_modules\/@popperjs\/core\/lib\/createPopper.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1111,6 +1309,47 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/node_modules\/firebase\/app\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/firebase\/app\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/firebase\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/firebase\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/firebase\/firestore\/dist\/index.esm.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/firebase\/firestore\/dist\/index.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/idb\/lib\/idb.mjs" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/idb\/lib\/idb.mjs",
+      "oF" : 0
+    },
     "\/node_modules\/tippy.js\/animations\/scale.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1142,6 +1381,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/node_modules\/tippy.js\/dist\/tippy.esm-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/tslib\/tslib.es6.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/tslib\/tslib.es6-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1620,6 +1870,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/scripts\/interface\/_darkpattern.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/scripts\/interface\/_darkpattern-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/scripts\/interface\/_helper.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1675,6 +1936,61 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/scripts\/interface\/AdvertismentPattern-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/scripts\/interface\/AdvertismentPattern-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/interface\/AdvertismentPattern.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/scripts\/interface\/AdvertismentPattern-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/interface\/CommunityPattern-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/scripts\/interface\/CommunityPattern-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/interface\/CommunityPattern.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/scripts\/interface\/CommunityPattern-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/interface\/CookiePattern.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/scripts\/interface\/CookiePattern-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/scripts\/interface\/index.js" : {
       "bF" : 4,
       "ft" : 64,
@@ -1683,6 +1999,17 @@
       "oA" : 0,
       "oAP" : "\/dist\/scripts\/index.js",
       "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/interface\/Pattern.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/scripts\/interface\/Pattern-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },

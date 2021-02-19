@@ -10,6 +10,7 @@
   "headline__overview": "Blockierte Dark Pattern",
   "headline__overview-info": "Hier findest du die Anzahl an Dark Pattern, welche auf der Seite und seit Installation erkannt wurden.",
   "headline__audit": "Auf <span class='currentSite__titel'>sd</span> erkannte Dark Pattern",
+  "headline__community": "Davon von der Community erkannt",
   "headline__audit-info": "Hier werden alle auf der aktuell besuchten Seite erkannten Dark Pattern angezeigt. Klicke, um mehr über die Dark Pattern zu erfahren.",
   "headline__setting": "Welche Funktionen sollen auf Webseiten berücksichtigt werden?",
   "pattern__title-cookie": "Cookie-Hinweis",
@@ -31,7 +32,7 @@
   "report__topic__input": "z.B. Erschwerte Kündigung",
   "report__solution__title": "Kurze Beschreibung",
   "report__solution__description": "Wie versucht dich dieser Dark Pattern zu täuschen?",
-  "report__solution__input": "Max 40 Zeichen...",
+  "report__solution__input": "Max 60 Zeichen...",
   "headline__report-info": "Hier kannst du der Community einen Dark Pattern melden, welcher bei anderen Benutzern im Audit angezeigt wird, wenn diese die gleiche Webseite besuchen.",
   "headline__report": "Teile deinen Fund mit der Community",
   "report__submit": "Dark Pattern der Community melden"
