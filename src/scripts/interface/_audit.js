@@ -1,8 +1,10 @@
 import {elementExist, getSettingStatus, loadCurrentURL} from "./_helper";
 import CookiePattern from "./CookiePattern";
 import AdvertismentPattern from "./AdvertismentPattern";
-import firebase from "firebase";
 import CommunityPattern from "./CommunityPattern";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+
 
 
 export const auditHandler = async () => {

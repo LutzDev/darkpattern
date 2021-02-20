@@ -1721,6 +1721,16 @@
       "plM" : 54584739364863,
       "prP" : 1
     },
+    "\/src\/assets\/icons\/icon-error.svg" : {
+      "ft" : 2097152,
+      "miP" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/icon-error.svg",
+      "oF" : 0,
+      "opt" : 1,
+      "plM" : 54584739364863,
+      "prP" : 1
+    },
     "\/src\/assets\/icons\/icon-evaluate.svg" : {
       "ft" : 2097152,
       "miP" : 1,
@@ -1767,6 +1777,16 @@
       "oA" : 0,
       "oAP" : "\/dist\/assets\/icons\/icon-setting.svg",
       "oF" : 2,
+      "opt" : 1,
+      "plM" : 54584739364863,
+      "prP" : 1
+    },
+    "\/src\/assets\/icons\/icon-success.svg" : {
+      "ft" : 2097152,
+      "miP" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/icon-success.svg",
+      "oF" : 0,
       "opt" : 1,
       "plM" : 54584739364863,
       "prP" : 1
@@ -2083,6 +2103,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/styles\/interface\/base\/_notification.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/interface\/base\/_notification.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/styles\/interface\/components\/__components.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2290,7 +2324,7 @@
       "oAP" : "\/dist\/styles\/interface.css",
       "oF" : 2,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/src\/styles\/interface\/layouts\/__layouts.scss" : {
@@ -4675,9 +4709,9 @@
         "!(node_modules)\/**\/*.md",
         "!(node_modules)\/**\/*.kit"
       ],
-      "removeFontFace" : 0,
-      "removeKeyframes" : 0,
-      "removeVariables" : 0,
+      "removeFontFace" : 1,
+      "removeKeyframes" : 1,
+      "removeVariables" : 1,
       "safelistEntries" : [
 
       ]

@@ -1,6 +1,6 @@
-import {elementExist} from "./_helper";
-import "firebase/firestore";
-import firebase from "firebase";
+import {countLetter, elementExist, notification} from "./_helper";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 export const reportHandler = () => {
     readForm();
@@ -21,17 +21,21 @@ const readForm = () => {
 
 const disableButton = () => {
     const reportInputFields = document.querySelectorAll(".form__text-field");
+    const reportSubmit = document.getElementById("report__submit");
     const reportTopic = document.getElementById("report__topic__input");
     const reportSolution = document.getElementById("report__solution__input");
-    const reportSubmit = document.getElementById("report__submit");
+    const counterTextarea = document.getElementById("text__counter-textarea");
+    const counterInput = document.getElementById("text__counter-input");
     if(elementExist(reportInputFields)){
         for(const reportInputField of reportInputFields){
-            reportInputField.addEventListener('keyup', () => {
-                if(reportTopic.value == null || reportTopic.value == "" || reportSolution.value == null || reportSolution.value == ""){
+            reportInputField.addEventListener('keyup', function () {
+                countLetter(this);
+                if(reportTopic.value == null || reportTopic.value == "" || reportSolution.value == null || reportSolution.value == "" || (counterTextarea.classList.contains("warning")) ||  (counterInput.classList.contains("warning"))){
                     reportSubmit.disabled = true;
                 }else{
                     reportSubmit.disabled = false;
                 }
+
             })
         }
     }
@@ -41,10 +45,12 @@ const removeInput = () => {
     const reportTopic = document.getElementById("report__topic__input");
     if(elementExist(reportTopic)){
         reportTopic.value = ""
+        countLetter(reportTopic);
     }
     const reportSolution = document.getElementById("report__solution__input");
     if(elementExist(reportSolution)){
         reportSolution.value = ""
+        countLetter(reportSolution);
     }
     const reportSubmit = document.getElementById("report__submit");
     if(elementExist(reportSubmit)){
@@ -74,11 +80,11 @@ const getURl = async () => {
 }
 
 const storeData = async (data) =>{
-    try{
-        let currentSite = await getURl();;
-        data["siteName"] = currentSite;
-        await firebase.firestore().collection(currentSite).add(data);
-    }catch (err){
-        console.log(err);
-    }
+    let currentSite = String(await getURl());
+    data["siteName"] = currentSite;
+    await firebase.firestore().collection(currentSite).add(data).then(ref =>{
+        notification(`Du hast den Dark Pattern erfolgreich mit der Community geteilt. Vielen Dank!`, "success");
+    }).catch((error) => {
+        notification(`Es ist ein Fehler aufgetreten: ${error}`, "error");
+    });
 }

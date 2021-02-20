@@ -1,0 +1,26 @@
+/*
+*** FORM STYLE ***
+*/
+
+@charset "utf-8";
+
+.notification{
+  padding: $padding-small/2;
+  border-radius: $border-small;
+  @include flexbox;
+  @include align-items(center);
+  animation-name: slideIn;
+  animation-duration: 1s;
+
+  &__success{
+    background: $color-success-light;
+    border: rem(2px) solid $color-success;
+    color: $color-success;
+  }
+
+  &__error{
+    background: $color-error;
+    border: rem(2px) solid $color-error;
+    color: $color-error;
+  }
+}

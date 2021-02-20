@@ -29,7 +29,13 @@ $color-font-h3:lighten(desaturate($color-font-h2, $gradation-medium), $gradation
 $color-info: #de9613;
 $color-info-light: lighten($color-info, $gradation-medium);
 
+$color-warning: #ED4445;
+
+$color-error: #ED4445;
+$color-error-light:lighten(desaturate($color-error, $gradation-medium), $gradation-medium);
+
 $color-success: #50997A;
+$color-success-light:lighten(desaturate($color-success, $gradation-medium), $gradation-strong);
 
 // BASE
 $color-primary-light-weak: lighten($color-primary, $gradation-weak);
@@ -54,10 +60,6 @@ $color-border: #c6538c;
 
 // MESSAGE
 $color-error: #D86E75;
-
-$color-warning: #E19D1D;
-$color-warning-text: darken(desaturate($color-warning, $gradation-strong), $gradation-weak);
-$color-warning-background: lighten(desaturate($color-warning, $gradation-weak), $gradation-medium);
 
 // BACKGROUND
 $color-bg-dark: darken(desaturate($color-bg, $gradation-weak), $gradation-weak/2);

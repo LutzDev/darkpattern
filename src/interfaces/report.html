@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <div id="report">
+    <div id="notificationContainer">
+    </div>
     <h2 data-translate="nav__report"></h2>
     <div class="contentGroup ">
         <div class="info">
@@ -17,12 +19,14 @@
                 <p data-translate="report__topic__title" id="report__topic__title" class="form__label__titel">What is the topic of the dark pattern?</p>
                 <p data-translate="report__topic__description" id="report__topic__description" class="form__label__description">Keep only the domain, ex: sub.domain.com or domain.com</p>
             </label>
-            <input data-translate="report__topic__input" type="text" name="patternTopic" id="report__topic__input" class="form__text-field" placeholder="Test" maxlength="40">
+            <input data-translate="report__topic__input" type="text" name="patternTopic" id="report__topic__input" class="form__text-field" placeholder="Test" maxlength="41">
+            <p class="form__text-counter" id="text__counter-input">40</p>
             <label class="test" for="report__solution__input">
                 <p data-translate="report__solution__title" id="report__solution__title" class="form__label__titel">What is the topic of the dark pattern?</p>
                 <p data-translate="report__solution__description" id="report__solution__description" class="form__label__description">Keep only the domain, ex: sub.domain.com or domain.com</p>
             </label>
-            <textarea data-translate="report__solution__input" type="text" name="patternDescription" class="form__text-field" id="report__solution__input" placeholder="placeholder" maxlength="100"></textarea>
+            <textarea data-translate="report__solution__input" type="text" name="patternDescription" class="form__text-field" id="report__solution__input" placeholder="placeholder" maxlength="101"></textarea>
+            <p class="form__text-counter" id="text__counter-textarea">100</p>
             <input type="submit" id="report__submit" class="button-primary" data-translate="report__submit" value="Test" disabled>
         </form>
     </div>
