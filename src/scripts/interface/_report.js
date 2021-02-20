@@ -1,4 +1,4 @@
-import {countLetter, elementExist, notification} from "./_helper";
+import {countLetter, elementExist, loadCurrentURL, notification, trimUrl} from "./_helper";
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
@@ -7,8 +7,13 @@ export const reportHandler = () => {
     disableButton();
 }
 
-const readForm = () => {
+const readForm = async () => {
     const reportForm = document.getElementById("report__form");
+    const currentSite = document.getElementById("reportSite");
+    if(elementExist(currentSite)){
+        currentSite.innerHTML = trimUrl(String(await loadCurrentURL()));
+    }
+
     if(elementExist(reportForm)){
         reportForm.addEventListener('submit', function (event) {
             event.preventDefault();
@@ -18,6 +23,7 @@ const readForm = () => {
         });
     }
 }
+
 
 const disableButton = () => {
     const reportInputFields = document.querySelectorAll(".form__text-field");

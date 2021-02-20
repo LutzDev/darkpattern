@@ -1,4 +1,4 @@
-import {elementExist, getSettingStatus, loadCurrentURL} from "./_helper";
+import {elementExist, getSettingStatus, loadCurrentURL, trimUrl} from "./_helper";
 import CookiePattern from "./CookiePattern";
 import AdvertismentPattern from "./AdvertismentPattern";
 import CommunityPattern from "./CommunityPattern";
@@ -25,9 +25,7 @@ const setUrl = async () => {
     }
 }
 
-const trimUrl = (url) => {
-    return url.replace(/^(https?:\/\/)?(www\.)?/,'');
-}
+
 
 const loadCommunityReport = async () => {
     let communityData = await getData(await loadCurrentURL());

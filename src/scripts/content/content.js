@@ -1,19 +1,28 @@
 window.onload = () => {
-    chrome.storage.local.set({"currentDomain": document.domain});
-
+    /*
+    chrome.runtime.onMessage.addListener(
+        function(message, sender, sendResponse) {
+            switch(message.type) {
+                case "getText":
+                    sendResponse("load");
+                    break;
+            }
+        }
+    );
+     */
 }
 
-/*
+
 
 chrome.extension.onMessage.addListener(function(msg, sender) {
     if (msg.action == 'urlUpdated') {
-        console.log("URL der seite:"+ document.domain)
-        chrome.storage.local.set({"currentDomain": [document.domain]});
+        console.log("urlUpdated content");
+        console.log(document.domain);
+        chrome.storage.local.set({"currentDomain": document.domain});
     }
     if (msg.action == 'tabChanged') {
-        console.log("URL der seite:"+ document.domain)
-        chrome.storage.local.set({"currentDomain": [document.domain]});
+        console.log("tabChanged content");
+        console.log(document.domain);
+        chrome.storage.local.set({"currentDomain": document.domain});
     }
 });
-
-*/

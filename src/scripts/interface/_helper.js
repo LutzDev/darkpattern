@@ -150,3 +150,7 @@ export const toggleClass = (element, property) => {
     }
     element.classList.add(property);
 }
+
+export const trimUrl = (url) => {
+    return url.replace(/^(https?:\/\/)?(www\.)?/,'');
+}

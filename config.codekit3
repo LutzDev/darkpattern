@@ -305,6 +305,16 @@
       "plM" : 54584739364863,
       "prP" : 1
     },
+    "\/dist\/assets\/icons\/icon-error.svg" : {
+      "ft" : 2097152,
+      "miP" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/icon-error.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 54584739364863,
+      "prP" : 1
+    },
     "\/dist\/assets\/icons\/icon-evaluate.svg" : {
       "ft" : 2097152,
       "miP" : 1,
@@ -350,6 +360,16 @@
       "miP" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/assets\/icons\/icon-setting.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 54584739364863,
+      "prP" : 1
+    },
+    "\/dist\/assets\/icons\/icon-success.svg" : {
+      "ft" : 2097152,
+      "miP" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/icon-success.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 54584739364863,
@@ -484,17 +504,6 @@
       "oAP" : "\/build\/node_modules",
       "oF" : 0
     },
-    "\/node_modules\/@firebase\/analytics\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/analytics\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/node_modules\/@firebase\/app\/dist\/index.esm.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -506,17 +515,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/node_modules\/@firebase\/auth\/dist\/auth.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/auth\/dist\/auth.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/node_modules\/@firebase\/component\/dist\/index.esm.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -524,28 +522,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/node_modules\/@firebase\/component\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/database\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/database\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/firestore\/bundle\/..\/dist\/esm5\/bundle.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/firestore\/bundle\/..\/dist\/esm5\/bundle-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -583,28 +559,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/node_modules\/@firebase\/functions\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/functions\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/installations\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/installations\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/node_modules\/@firebase\/logger\/dist\/index.esm.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -612,50 +566,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/node_modules\/@firebase\/logger\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/messaging\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/messaging\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/performance\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/performance\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/remote-config\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/remote-config\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@firebase\/storage\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/@firebase\/storage\/dist\/index.esm-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1320,17 +1230,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/node_modules\/firebase\/dist\/index.esm.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/firebase\/dist\/index.esm-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/node_modules\/firebase\/firestore\/dist\/index.esm.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1341,14 +1240,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/node_modules\/idb\/lib\/idb.mjs" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/node_modules\/idb\/lib\/idb.mjs",
-      "oF" : 0
     },
     "\/node_modules\/tippy.js\/animations\/scale.css" : {
       "aP" : 1,
@@ -1640,6 +1531,45 @@
       "oA" : 2,
       "oAP" : "\/dist\/assets\/fonts\/poppins-v15-latin-regular.woff2",
       "oF" : 3
+    },
+    "\/src\/assets\/icons\/darkpattern_popup_icon_16.png" : {
+      "ft" : 32768,
+      "iS" : 1993,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/darkpattern_popup_icon_16.png",
+      "oF" : 3,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/assets\/icons\/darkpattern_popup_icon_48.png" : {
+      "ft" : 32768,
+      "iS" : 2600,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/darkpattern_popup_icon_48.png",
+      "oF" : 3,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/assets\/icons\/darkpattern_popup_icon_128.png" : {
+      "ft" : 32768,
+      "iS" : 4243,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/darkpattern_popup_icon_128.png",
+      "oF" : 3,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/src\/assets\/icons\/icon-advertisement.svg" : {
       "ft" : 2097152,

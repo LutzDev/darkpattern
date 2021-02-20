@@ -1,1 +1,1 @@
-window.onload=()=>{chrome.storage.local.set({currentDomain:document.domain})};
+window.onload=()=>{},chrome.extension.onMessage.addListener((function(o,n){"urlUpdated"==o.action&&(console.log("urlUpdated content"),console.log(document.domain),chrome.storage.local.set({currentDomain:document.domain})),"tabChanged"==o.action&&(console.log("tabChanged content"),console.log(document.domain),chrome.storage.local.set({currentDomain:document.domain}))}));
