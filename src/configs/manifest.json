@@ -12,24 +12,17 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "exclude_matches": [
-        "https://www.linkedin.com/",
-        "https://mail.google.com/",
-        "https://twitter.com/"
-      ],
       "js": ["scripts/content.js"],
-
       "run_at": "document_end"
     },
     {
       "matches": ["<all_urls>"],
-      "exclude_matches": [
-        "https://www.linkedin.com/",
-        "https://mail.google.com/",
-        "https://twitter.com/"
-      ],
+      "js": ["scripts/content_cookie.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["<all_urls>"],
       "css": [ "styles/patterns.css" ],
-
       "run_at": "document_end"
     }
   ],
@@ -44,5 +37,4 @@
   },
   "options_page": "interfaces/options.html",
   "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
-
 }

@@ -1,0 +1,46 @@
+/*
+*** COOKIE MIXINS ***
+*/
+
+@charset "utf-8";
+
+@mixin cookieDefaultStyle() {
+  background: inherit !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  padding: $padding-medium !important;
+  border: none !important;
+  border-radius: $border-medium !important;
+  @include transition(all);
+
+  &:hover {
+    background: inherit !important;
+    cursor: pointer !important;
+    opacity: 0.8 !important;
+    border: none !important;
+    font-size: 14px !important;
+    padding: $padding-medium !important;
+    border-radius: $border-medium !important;
+  }
+}
+
+@mixin cookieInconspicuousStyle() {
+  background: $color-white !important;
+  border: 2px solid $color-bg-dark-weak !important;
+  color: $color-primary !important;
+
+  &:hover{
+    background: $color-white !important;
+    border: 2px solid $color-bg-dark-weak !important;
+    olor: $color-primary !important;
+  }
+}
+
+@mixin cookieConspicuousStyle() {
+  background: $color-primary !important;
+  color: $color-white !important;
+
+  &:hover{
+    background: $color-primary !important;
+  }
+}

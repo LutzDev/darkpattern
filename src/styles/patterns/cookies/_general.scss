@@ -1,0 +1,24 @@
+/*
+*** GENERAL ***
+*/
+
+@charset "utf-8";
+
+.dp__manipulation{
+  &-hide{
+    border: none !important;
+    background: #E5E6E9 !important;
+    color: #213B73 !important;
+    font-size: rem(16px) !important;
+    @include transition(all);
+  }
+
+  &-show{
+    border: none !important;
+    background: #4453B6 !important;
+    color: white !important;
+    font-size: rem(16px) !important;
+    @include transition(all);
+
+  }
+}

@@ -1,16 +1,7 @@
-window.onload = () => {
-    /*
-    chrome.runtime.onMessage.addListener(
-        function(message, sender, sendResponse) {
-            switch(message.type) {
-                case "getText":
-                    sendResponse("load");
-                    break;
-            }
-        }
-    );
-     */
+window.onload = async () => {
+
 }
+
 
 
 
@@ -19,10 +10,12 @@ chrome.extension.onMessage.addListener(function(msg, sender) {
         console.log("urlUpdated content");
         console.log(document.domain);
         chrome.storage.local.set({"currentDomain": document.domain});
+        chrome.storage.local.set({"cookieDetected": false});
     }
     if (msg.action == 'tabChanged') {
         console.log("tabChanged content");
         console.log(document.domain);
         chrome.storage.local.set({"currentDomain": document.domain});
+        chrome.storage.local.set({"cookieDetected": false});
     }
 });

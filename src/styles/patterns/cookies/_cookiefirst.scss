@@ -1,0 +1,22 @@
+/*
+*** COOKIE FIRST ***
+*/
+
+@charset "utf-8";
+
+#cf-root{
+  &.dp__manipulation-cookie{
+    button{
+      @include cookieDefaultStyle;
+    }
+
+    [data-cookiefirst-button="primary"]{
+      @include cookieInconspicuousStyle;
+    }
+
+    [data-cookiefirst-button="secondary"]{
+      @include cookieConspicuousStyle;
+    }
+  }
+}
+

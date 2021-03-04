@@ -1,0 +1,26 @@
+/*
+*** COOKIEBOT ***
+*/
+
+@charset "utf-8";
+
+#cmpbox{
+
+  &.dp__manipulation-cookie{
+    .cmpboxbtn{
+      @include cookieDefaultStyle;
+    }
+
+    .cmpboxbtnyes{
+      @include cookieInconspicuousStyle;
+      svg{
+        fill: #213B73 !important;
+      }
+
+    }
+
+    .cmpboxbtnno{
+      @include cookieConspicuousStyle;
+    }
+  }
+}

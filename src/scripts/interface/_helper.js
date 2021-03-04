@@ -25,7 +25,7 @@ export const fillTextData =  () => {
                                 content: data[textSnippet.getAttribute("data-translate")],
                                 animation: 'scale',
                                 allowHTML: true,
-                                delay: [400, null],
+                                delay: [0, null],
                             });
                         }else if(textSnippet.hasAttribute("placeholder")){
                             textSnippet.setAttribute("placeholder", data[textSnippet.getAttribute("data-translate")]);
@@ -50,11 +50,15 @@ export const storeSettingStatus = (element) => {
     return new Promise(async (resolve, reject) => {
         try{
             await chrome.storage.local.set(setting, () => {
-                notification(`Einstellung erfolgreich gespeichert`, "success");
-                return resolve(setting);
+                if(setting !== "undefined" || setting !== null){
+                    notification(`Einstellung erfolgreich gespeichert`, "success");
+                    return resolve(setting);
+                }else{
+                    throw new Error(`Fehler beim Speichern der Einstellung`);
+                }
             });
         }catch (error){
-            notification(`Es ist ein Fehler beim Speichern der Einstellungen aufgetreten: ${error}`, "error");
+            notification(`${error}`, "error");
             return reject(error);
         }
     })
@@ -83,7 +87,6 @@ const updateCounter = (counter, element) => {
 export const getSettingStatus = (element) => {
     return new Promise((resolve, reject) => {
         try{
-            console.log(typeof element);
             if((typeof element) != "string"){
                 chrome.storage.local.get([element.id], (result) => {
                     return resolve(result[element.id]);
@@ -115,12 +118,12 @@ export const loadCurrentURL = () => {
 
 export const notification = (message, status) => {
     let notificationItem = document.createElement("div");
-    notificationItem.classList.add("notification", "notification__success");
     const notification = document.getElementById("notificationContainer");
     let content;
 
     if (elementExist(notification)) {
         if(status === "success"){
+            notificationItem.classList.add("notification", "notification__success");
             content = "<div class=\"icon icon__success\">\n" +
                 "                <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" stroke-linejoin=\"round\" stroke-miterlimit=\"2\">\n" +
                 "                    <path d=\"M14.789 9.812l-3.618 3.617-1.959-1.958a.749.749 0 10-1.06 1.06l2.489 2.489a.749.749 0 001.06 0l4.148-4.148a.749.749 0 10-1.06-1.06z\" fill=\"#323232\"/>\n" +
@@ -129,6 +132,7 @@ export const notification = (message, status) => {
                 "            </div>\n" +
                 "            <p class=\"notification__text\">"+message+"</p>"
         }else if(status === "error"){
+            notificationItem.classList.add("notification", "notification__error");
             content = "<div class=\"icon icon__error\">\n" +
                 "                <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" stroke-linejoin=\"round\" stroke-miterlimit=\"2\">\n" +
                 "                    <path d=\"M12.75 13.12V9.38a.75.75 0 00-1.5 0v3.74a.75.75 0 001.5 0zm-.699 2.256l-.052-.001-.039.001a.999.999 0 00.04 1.999 1 1 0 00.051-1.999zm-.078 1.498a.226.226 0 00.026.001l-.026-.001z\" fill=\"#323232\"/>\n" +

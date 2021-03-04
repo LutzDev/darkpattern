@@ -1,0 +1,25 @@
+/*
+*** ONE TRUST ***
+*/
+
+@charset "utf-8";
+
+#onetrust-consent-sdk{
+   &.dp__manipulation-cookie{
+     button{
+       @include cookieDefaultStyle;
+     }
+
+     #onetrust-reject-all-handler{
+       @include cookieInconspicuousStyle;
+     }
+
+     #onetrust-accept-btn-handler{
+       @include cookieConspicuousStyle;
+     }
+
+     #onetrust-pc-btn-handler{
+       @include cookieConspicuousStyle;
+     }
+   }
+}

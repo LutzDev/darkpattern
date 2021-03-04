@@ -76,10 +76,15 @@ const getURl = async () => {
     return new Promise(async (resolve, reject) => {
         try{
             chrome.storage.local.get(["currentDomain"], (result) => {
-                return resolve(result.currentDomain);
+                if(result.currentDomain !== "undefined" || result.currentDomain !== null){
+                    return resolve(result.currentDomain);
+                }else{
+                    throw new Error("Fehler beim Laden der URL");
+                }
+
             });
         }catch (err){
-            console.log(err)
+            notification(`${error}`, "error");
             return  reject(undefined);
         }
     })
@@ -91,6 +96,7 @@ const storeData = async (data) =>{
     await firebase.firestore().collection(currentSite).add(data).then(ref =>{
         notification(`Du hast den Dark Pattern erfolgreich mit der Community geteilt. Vielen Dank!`, "success");
     }).catch((error) => {
+        console.log("error");
         notification(`Es ist ein Fehler aufgetreten: ${error}`, "error");
     });
 }

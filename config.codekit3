@@ -225,6 +225,45 @@
       "oAP" : "\/dist\/assets\/fonts\/poppins-v15-latin-regular.woff2",
       "oF" : 0
     },
+    "\/dist\/assets\/icons\/darkpattern_popup_icon_16.png" : {
+      "ft" : 32768,
+      "iS" : 438,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/darkpattern_popup_icon_16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/assets\/icons\/darkpattern_popup_icon_48.png" : {
+      "ft" : 32768,
+      "iS" : 1179,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/darkpattern_popup_icon_48.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/assets\/icons\/darkpattern_popup_icon_128.png" : {
+      "ft" : 32768,
+      "iS" : 2687,
+      "oA" : 0,
+      "oAP" : "\/dist\/assets\/icons\/darkpattern_popup_icon_128.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/assets\/icons\/icon-advertisement.svg" : {
       "ft" : 2097152,
       "miP" : 1,
@@ -385,6 +424,14 @@
       "plM" : 54584739364863,
       "prP" : 1
     },
+    "\/dist\/detection\/cookie_consent.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/detection\/cookie_consent-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/dist\/interfaces\/audit.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -448,6 +495,39 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/scripts\/background-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/scripts\/content__cookie.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scripts\/content__cookie-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/scripts\/content_cookie_ansatz1.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scripts\/content_cookie_ansatz1-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/scripts\/content_cookie.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scripts\/content_cookie-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1787,6 +1867,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/src\/rules\/cookie_rules.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/src\/rules\/cookie_rules-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/src\/scripts\/background\/background.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1794,6 +1882,28 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/scripts\/background.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/content\/conten_cookie_ansatz1.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scripts\/content_cookie_ansatz1.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/scripts\/content\/content_cookie.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/scripts\/content_cookie.js",
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
@@ -2383,6 +2493,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/styles\/interface\/mixins\/_cookie.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/interface\/mixins\/_cookie.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/styles\/interface\/mixins\/_flexbox.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2551,6 +2675,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/styles\/patterns\/cookies\/_consentmanager.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/patterns\/cookies\/_consentmanager.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/styles\/patterns\/cookies\/_cookiebot.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2560,6 +2698,48 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/styles\/patterns\/cookies\/_cookiebot.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/patterns\/cookies\/_cookiefirst.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/patterns\/cookies\/_cookiefirst.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/patterns\/cookies\/_general.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/patterns\/cookies\/_general.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/patterns\/cookies\/_onetrust.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/patterns\/cookies\/_onetrust.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

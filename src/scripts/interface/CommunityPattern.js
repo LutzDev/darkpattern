@@ -23,7 +23,7 @@ export default class CommunityPattern extends Pattern{
             "                </div>\n" +
             "                <div class=\"item__interaction item__interaction-pattern\">\n" +
             "                    <div data-tooltip data-tippy-content=\""+this.description+"\" data-translate=\"pattern__community__info\" class=\"icon info__icon\">\n" +
-            "                        <a href=\"https://www.w3schools.com\" target=\"_blank\" alt=\"Dark Pattern Info Seite\">\n" +
+            "                        <a href=\"\" target=\"_blank\" alt=\"Dark Pattern Info Seite\">\n" +
             "                            <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" stroke-linejoin=\"round\" stroke-miterlimit=\"2\">\n" +
             "                                <path d=\"M11.254 15.246h-.485a.75.75 0 000 1.5h2.462a.75.75 0 000-1.5h-.477v-3.782a.75.75 0 00-.75-.75h-1.226a.75.75 0 000 1.5h.476v3.032z\" fill=\"#323232\"/>\n" +
             "                                <circle cx=\"13.383\" cy=\"6.883\" r=\".383\" fill=\"#323232\" transform=\"translate(-23.528 -9.843) scale(2.63039)\"/>\n" +
@@ -38,6 +38,4 @@ export default class CommunityPattern extends Pattern{
         document.getElementById("communityItems").appendChild(patternItem);
         tippy('[data-tippy-content]');
     }
-
-
 }

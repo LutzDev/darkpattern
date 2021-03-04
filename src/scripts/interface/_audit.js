@@ -9,11 +9,10 @@ import 'firebase/firestore';
 
 export const auditHandler = async () => {
     setUrl();
+    loadCookiePattern();
     if(await getSettingStatus("switch__community")){
         loadCommunityReport();
     }
-    new CookiePattern(2);
-    new AdvertismentPattern(4);
 }
 
 const setUrl = async () => {
@@ -22,6 +21,19 @@ const setUrl = async () => {
         for(const currentSite of currentSites){
             currentSite.innerText = trimUrl(await loadCurrentURL());
         }
+    }
+}
+
+
+const loadCookiePattern = async () => {
+    const currentSitesCounter = document.getElementById("currentSite__counter");
+    if(await getSettingStatus("cookieDetected")){
+        new CookiePattern(1);
+        if (elementExist(currentSitesCounter)){
+            currentSitesCounter.innerHTML="1";
+        }
+    }else{
+        currentSitesCounter.innerHTML="Keine";
     }
 }
 

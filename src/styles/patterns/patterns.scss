@@ -4,6 +4,15 @@
 
 @charset "utf-8";
 
+// IMPORT VARIABLES
+@import "../interface/variables/_variables";
+
+// IMPORT FUNCTIONS
+@import "../interface/functions/_function";
+
+// IMPORT MIXINS STYLE
+@import "../interface/mixins/_mixins";
+
 // IMPORT COOKIES STYLE
 @import "cookies/_cookies";
 
